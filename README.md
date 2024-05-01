@@ -33,7 +33,7 @@ in software development, striving to become a valuable asset to any team I join.
   </div>
 
   <h3>I'm currently studying</h3>
-    <img alt="TanNguyen20-Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+    <img alt="TanNguyen20-Python" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
  <h3>I plan to study this year</h3>  
     <img alt="TanNguyen20-Kotlin" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" />
 
