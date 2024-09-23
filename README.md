@@ -12,6 +12,10 @@ in software development, striving to become a valuable asset to any team I join.
   <a href="https://wakatime.com/@018e864b-c555-4395-be78-3f9a65937485"><img src="https://wakatime.com/badge/user/018e864b-c555-4395-be78-3f9a65937485.svg" alt="Total time coded since Jan 01 2022" /></a>
 </div>
 
+<div align="center">
+  <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/6540ab3fc5b7df990dfadb54?variant=light&roadmaps=typescript%2Creact%2Cjava%2Cnodejs" alt="roadmap.sh"/></a>
+</div>
+
 <div align="center" style="display: inline_block"><br>
   <div align="center">
     <a href="https://twitter.com/_TanNguyen20" target="_blank"> <img height="30" src="https://img.shields.io/badge/Twitter-%23333?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a>
