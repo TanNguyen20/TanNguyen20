@@ -13,7 +13,7 @@ in software development, striving to become a valuable asset to any team I join.
 </div>
 
 <div align="center">
-  <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/6540ab3fc5b7df990dfadb54?variant=dark&roadmaps=react%2Cjava%2Ckubernetes%2Cnodejs" alt="roadmap.sh"/></a>
+  <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/6540ab3fc5b7df990dfadb54?variant=light&roadmaps=react%2Cjava%2Ckubernetes%2Cnodejs" alt="roadmap.sh"/></a>
 </div>
 
 <div align="center" style="display: inline_block"><br>
