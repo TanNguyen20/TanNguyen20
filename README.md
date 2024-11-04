@@ -14,9 +14,7 @@
 </p>
 
 <div align="center">
-  <a href="https://wakatime.com/@018e864b-c555-4395-be78-3f9a65937485">
-    <img src="https://wakatime.com/badge/user/018e864b-c555-4395-be78-3f9a65937485.svg" alt="Total time coded since Jan 01 2022" />
-  </a>
+  <a href="https://wakatime.com/@e5cbf104-df68-4900-a2f8-0a5c942bd4c9"><img src="https://wakatime.com/badge/user/e5cbf104-df68-4900-a2f8-0a5c942bd4c9.svg" alt="Total time coded since May 18 2024" /></a>
 </div>
 
 <div align="center">
