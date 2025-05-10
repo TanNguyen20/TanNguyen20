@@ -19,7 +19,7 @@
 
 <div align="center">
   <a href="https://roadmap.sh">
-    <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/6540ab3fc5b7df990dfadb54?variant=dark&roadmaps=java%2Creact%2Cspring-boot%2Ctypescript" alt="roadmap.sh"/></a>
+    
   </a>
 </div>
 
