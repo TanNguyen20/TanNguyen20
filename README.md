@@ -14,12 +14,12 @@
 </p>
 
 <div align="center">
-  <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/6540ab3fc5b7df990dfadb54?variant=dark&roadmaps=java%2Creact%2Cspring-boot%2Ckubernetes" alt="roadmap.sh"/></a>
+  <a href="https://wakatime.com/@e5cbf104-df68-4900-a2f8-0a5c942bd4c9"><img src="https://wakatime.com/badge/user/e5cbf104-df68-4900-a2f8-0a5c942bd4c9.svg" alt="Total time coded since May 18 2024" /></a>
 </div>
 
 <div align="center">
   <a href="https://roadmap.sh">
-    <img src="https://roadmap.sh/card/tall/6540ab3fc5b7df990dfadb54?variant=light&roadmaps=react%2Cjava%2Ckubernetes%2Cnodejs" alt="roadmap.sh" />
+    <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/6540ab3fc5b7df990dfadb54?variant=dark&roadmaps=java%2Creact%2Cspring-boot%2Ckubernetes" alt="roadmap.sh"/></a>
   </a>
 </div>
 
