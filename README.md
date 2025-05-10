@@ -65,13 +65,6 @@
 <hr>
 
 <div align="center" style="display: inline_block">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=TanNguyen20" alt="TanNguyen20's WakaTime stats" />
-  </a>
-  <figure><embed src="https://wakatime.com/share/@TanNguyen20/db2e0233-ad53-4538-bccd-fe3fa96210b3.svg"></embed></figure>
-</div>
-
-<div align="center" style="display: inline_block">
   <img height="200em" src="https://github-readme-stats.vercel.app/api?username=TanNguyen20&show_icons=true&theme=radical">
   <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TanNguyen20&layout=donut&theme=radical">
 </div>
