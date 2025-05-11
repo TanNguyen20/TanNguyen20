@@ -62,7 +62,7 @@
   <img alt="TanNguyen20-Jira" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" />
 </div>
 
-<div style="height: 30" ></div>
+<hr>
 
 <div align="center" style="display: inline_block">
   <img height="200em" src="https://github-readme-stats.vercel.app/api?username=TanNguyen20&show_icons=true&theme=radical">
