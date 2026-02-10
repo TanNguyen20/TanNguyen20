@@ -29,7 +29,7 @@ jobs:
             base_path="${file%.*}"
             clean_name=$(basename "$base_path")
             
-            # --- PDF CONVERSION ---
+            # --- PDF CONVERSION (Keeps original filename) ---
             echo "--> Converting to PDF..."
             curl --fail --retry 5 --retry-connrefused --max-time 300 \
               -X POST \
@@ -37,24 +37,13 @@ jobs:
               "$API_URL/convert/pdf?output_filename=$clean_name" \
               --output "$base_path.pdf"
 
-            # --- MARKDOWN CONVERSION ---
-            # If the file is 'main.tex', save it as 'README.md'
-            # Otherwise, save it with its original name.
-            if [[ "$clean_name" == "main" ]]; then
-                echo "--> Converting main.tex to README.md..."
-                curl --fail --retry 3 \
-                  -X POST \
-                  -F "file=@$file" \
-                  "$API_URL/convert/markdown?output_filename=README" \
-                  --output "README.md"
-            else
-                echo "--> Converting $clean_name.tex to $clean_name.md..."
-                curl --fail --retry 3 \
-                  -X POST \
-                  -F "file=@$file" \
-                  "$API_URL/convert/markdown?output_filename=$clean_name" \
-                  --output "$base_path.md"
-            fi
+            # --- MARKDOWN CONVERSION (Hardcoded to README.md) ---
+            echo "--> Converting $clean_name.tex to README.md..."
+            curl --fail --retry 3 \
+              -X POST \
+              -F "file=@$file" \
+              "$API_URL/convert/markdown?output_filename=README" \
+              --output "README.md"
           done
 
       - name: Commit and Push changes
