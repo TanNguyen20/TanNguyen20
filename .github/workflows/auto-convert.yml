@@ -1,0 +1,62 @@
+name: Auto Convert LaTeX
+on:
+  push:
+    paths:
+      - '**/*.tex'      # Only run when .tex files change
+      - '!**/warmup.tex' # Ignore your API warmup file if it exists here
+
+permissions:
+  contents: write       # REQUIRED: Allows the action to push files back to the repo
+
+jobs:
+  convert_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Process LaTeX files
+        env:
+          # Replace this with your actual Render URL
+          API_URL: ${{ secrets.RENDER_API_URL }} 
+        run: |
+          # 1. Configure Git
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+
+          # 2. Find all .tex files and loop through them
+          find . -name "*.tex" -not -path "./.*" | while read file; do
+            echo "Found file: $file"
+            
+            # Remove extension to get base name (e.g., "docs/paper.tex" -> "docs/paper")
+            base_name="${file%.*}"
+            
+            echo "--> Converting to PDF..."
+            # --retry 5: Retries if Render is sleeping (common on free tier)
+            # --fail: Fails the step if the API returns a 4xx/5xx error
+            curl --fail --retry 5 --retry-connrefused --max-time 300 \
+              -X POST \
+              -F "file=@$file" \
+              "$API_URL/convert/pdf" \
+              --output "$base_name.pdf"
+
+            echo "--> Converting to Markdown..."
+            curl --fail --retry 3 \
+              -X POST \
+              -F "file=@$file" \
+              "$API_URL/convert/markdown" \
+              --output "$base_name.md"
+          done
+
+      - name: Commit and Push changes
+        run: |
+          # Check if there are any changes (new pdf/md files)
+          if [[ -n $(git status -s) ]]; then
+            git add .
+            # [skip ci] prevents this commit from triggering the action again loop
+            git commit -m "Auto-convert LaTeX to PDF/MD [skip ci]"
+            git push
+            echo "Successfully pushed converted files."
+          else
+            echo "No changes to commit."
+          fi
