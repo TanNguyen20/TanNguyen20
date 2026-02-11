@@ -1,10 +1,7 @@
----
-address:
-- District 7, Ho Chi Minh City
-- |
-  (+84) 858.111.879  
-  nguyennhattan.work@gmail.com
----
+> District 7, Ho Chi Minh City
+
+> (+84) 858.111.879  
+> nguyennhattan.work@gmail.com
 
 <div class="rSection">
 
