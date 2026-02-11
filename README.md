@@ -1,3 +1,11 @@
+---
+address:
+- District 7, Ho Chi Minh City
+- |
+  (+84) 858.111.879  
+  nguyennhattan.work@gmail.com
+---
+
 <div class="rSection">
 
 Executive Summary & Career Objective As a Full Stack Developer with 4 years of experience, I have a strong foundation in ReactJS, TypeScript, NextJS, and Java Spring Boot. My goal is to contribute to a dynamic company’s success as a Full Stack Developer, continuously learning and improving to deliver effective solutions. I stay up-to-date with the latest software development technologies and best practices, striving to become a valuable asset to any team I join.
