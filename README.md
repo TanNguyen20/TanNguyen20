@@ -4,15 +4,13 @@
 
 <div class="rSection">
 
-Executive Summary & Career Objective As a Full Stack Developer with 4 years of experience, I have a strong foundation in ReactJS, TypeScript, NextJS, and Java Spring Boot. My goal is to contribute to a dynamic company’s success as a Full Stack Developer, continuously learning and improving to deliver effective solutions. I stay up-to-date with the latest software development technologies and best practices, striving to become a valuable asset to any team I join.
+Executive Summary & Career Objective As a Full Stack Developer with over 4 years of experience, I have a strong foundation in ReactJS, TypeScript, NextJS, and Java Spring Boot. My goal is to contribute to a dynamic company’s success as a Full Stack Developer, continuously learning and improving to deliver effective solutions. I stay up-to-date with the latest software development technologies and best practices, striving to become a valuable asset to any team I join.
 
 </div>
 
 <div class="rSection">
 
-Work Experience
-
-**Middle Full Stack Developer, FPT Information System (FPT IS)** *09/2025 – Present*  
+Work Experience **Middle Full Stack Developer, FPT Information System (FPT IS)** *09/2025 – Present*  
 **Project: Data Platform**  
 **Team Size:** 8 members  
 **Job overview and responsibilities:**
@@ -190,8 +188,7 @@ Work Experience
 Projects **Flow Chart App** *06/2023 – Present*  
 **Technologies Used:** NextJS, Next Auth, MUI, Java Spring Boot, Tailwind, PostgreSQL, Azure DevOps, Jest  
 **Description:** An editor for building charts and diagrams.  
-**Repo:** [Flow Chart App](https://dev.azure.com/nhattan1506/Public-Project/_git/flow-chart-app)  
-**Website:** [tannguyen.id.vn](https://tannguyen.id.vn)
+**Repo:** [Flow Chart App](https://dev.azure.com/nhattan1506/Public-Project/_git/flow-chart-app)
 
 </div>
 
@@ -243,5 +240,7 @@ Education **Can Tho University** *09/2018 - 09/2022*
 Achievements
 
 - **TMA Star Performers**: Recognized for outstanding contributions and performance at TMA Solutions.
+
+- **FPT IKhien**: The gold prize in the 7th final round.
 
 </div>
